@@ -1,0 +1,38 @@
+Limitation
+	- cannot use solution or hint
+	- maxwrongtries = 7
+
+Algorithm:
+1. All words in the guessList
+	- call the url and get list of words
+2. Start the game using '/hangman' POST api	
+	Url: https://hangman-api.herokuapp.com/hangman
+	Response:
+	{ hangman: hangman_string, token: game token }
+
+3. Store the token and extract tstring length
+4. Extract words from guessList based on tstring length
+5. Get max occurence character i.e. maxC
+	- Creat a Dictionary for all Alphabets with 0 as occurences except those alpohabets whihc have value as -1
+	- Iterate through the guessList and populate the occurences of each character based on their occurences in each word. Only consider the characters that have values > -1
+	- get the character with max number of occurences i.e. maxC
+6. Pass maxC to PUT Api 
+  { token: storedToken, letter: maxC }
+	Response:
+		- refesh the token value 
+		- extract the guess as true/false
+		- update the occurences dictionary and set value of maxC = -1
+7. Based on the true/false value:
+	- Update the noofWrongTries and checkForHangman variable
+	- If noofWrongTries < maxwrongtries OR the word is guessed correctly (the hangman varaible doesnot contain '_'){	
+		- if false
+			- reduce list by eleminating words that contain the letter
+		- if true
+			- reduce list  based on the words that contain that letter (*) (possibly regex)
+		- Goto Number 5
+	}
+	else 
+		- end
+
+
+

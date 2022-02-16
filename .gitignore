@@ -1,1 +1,22 @@
  
+HangmanAutoplayer/.vs/HangmanAutoplayer/v16/.suo
+*.v2
+*.dll
+HangmanAutoplayer/HangmanAutoplayer/bin/Debug/netcoreapp2.1/HangmanAutoplayer.deps.json
+*.pdb
+HangmanAutoplayer/HangmanAutoplayer/bin/Debug/netcoreapp2.1/HangmanAutoplayer.runtimeconfig.dev.json
+HangmanAutoplayer/HangmanAutoplayer/bin/Debug/netcoreapp2.1/HangmanAutoplayer.runtimeconfig.json
+HangmanAutoplayer/HangmanAutoplayer/obj/Debug/netcoreapp2.1/HangmanAutoplayer.AssemblyInfoInputs.cache
+HangmanAutoplayer/HangmanAutoplayer/obj/project.nuget.cache
+HangmanAutoplayer/HangmanAutoplayer/obj/project.assets.json
+HangmanAutoplayer/HangmanAutoplayer/obj/Debug/netcoreapp2.1/HangmanAutoplayer.GeneratedMSBuildEditorConfig.editorconfig
+HangmanAutoplayer/HangmanAutoplayer/obj/Debug/netcoreapp2.1/HangmanAutoplayer.genruntimeconfig.cache
+HangmanAutoplayer/HangmanAutoplayer/obj/HangmanAutoplayer.csproj.nuget.dgspec.json
+HangmanAutoplayer/HangmanAutoplayer/obj/HangmanAutoplayer.csproj.nuget.g.props
+HangmanAutoplayer/HangmanAutoplayer/obj/HangmanAutoplayer.csproj.nuget.g.targets
+HangmanAutoplayer/HangmanAutoplayer/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.cs
+HangmanAutoplayer/HangmanAutoplayer/obj/Debug/netcoreapp2.1/HangmanAutoplayer.AssemblyInfo.cs
+HangmanAutoplayer/HangmanAutoplayer/obj/Debug/netcoreapp2.1/HangmanAutoplayer.assets.cache
+HangmanAutoplayer/HangmanAutoplayer/obj/Debug/netcoreapp2.1/HangmanAutoplayer.csproj.AssemblyReference.cache
+HangmanAutoplayer/HangmanAutoplayer/obj/Debug/netcoreapp2.1/HangmanAutoplayer.csproj.CoreCompileInputs.cache
+HangmanAutoplayer/HangmanAutoplayer/obj/Debug/netcoreapp2.1/HangmanAutoplayer.csproj.FileListAbsolute.txt
